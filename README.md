@@ -121,56 +121,6 @@ crm-mern-app/
 
    The frontend will run on `http://localhost:3000`
 
-### MongoDB Setup
-
-**Option 1: Local MongoDB**
-- Install MongoDB on your computer
-- Start MongoDB service
-- Use connection string: `mongodb://localhost:27017/crm_database`
-
-**Option 2: MongoDB Atlas (Cloud)**
-- Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-- Create a new cluster
-- Get your connection string
-- Replace `<password>` with your database password
-- Update `MONGO_URI` in `.env` file
-
-## 📖 How to Use the Application
-
-1. **Register a New Account**
-   - Go to `http://localhost:3000`
-   - Click on "Register here"
-   - Fill in your name, email, and password
-   - Click "Register"
-
-2. **Login**
-   - Enter your email and password
-   - Click "Login"
-
-3. **Add a Customer**
-   - Click "Add New Customer" button
-   - Fill in customer details (name, email, phone, company)
-   - Click "Add Customer"
-
-4. **Edit a Customer**
-   - Click the "Edit" button on any customer card
-   - Update the information
-   - Click "Update Customer"
-
-5. **Delete a Customer**
-   - Click the "Delete" button on any customer card
-   - Confirm the deletion
-
-6. **Logout**
-   - Click the "Logout" button in the navigation bar
-
-## 🔐 Security Features
-
-- Passwords are hashed using bcrypt
-- JWT tokens for secure authentication
-- Protected routes that require authentication
-- User-specific customer data (users can only see their own customers)
-
 ## 📝 API Endpoints
 
 ### Authentication
@@ -219,17 +169,6 @@ crm-mern-app/
 - Check connection string in `.env`
 - For MongoDB Atlas, ensure your IP is whitelisted
 
-## 📦 Assignment Submission Checklist
-
-- ✅ Complete MERN application with all features
-- ✅ User authentication (registration and login)
-- ✅ CRUD operations for customer management
-- ✅ Responsive design with React components
-- ✅ Error handling and input validation
-- ✅ Well-commented code
-- ✅ README with setup instructions
-- 📹 Video screen recording (to be added)
-
 ## 👨‍💻 Author
 
 Created as part of MERN Stack Assignment - Enhancing CRM Solutions with MERN Integration
@@ -237,5 +176,6 @@ Created as part of MERN Stack Assignment - Enhancing CRM Solutions with MERN Int
 ## 📄 License
 
 This project is created for educational purposes.
+
 
 
